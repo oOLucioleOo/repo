@@ -7,14 +7,11 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    [DataContract]
     public partial class WebApplicationEntity
     {
-
-        [DataMember]
-        public string Url { get; set; }
-
-        [DataMember]
-        public ICollection<SiteCollectionEntity> WebApplication { get; set; }
+        public WebApplicationEntity()
+        {
+            WebApplication = new List<SiteCollectionEntity>();
+        }
     }
 }

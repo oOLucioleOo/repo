@@ -7,17 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-
     [DataContract]
-    public partial class SiteCollectionEntity
+    public partial class EDFEntity
     {
         [DataMember]
-        public string Url { get; set; }
-
-        [DataMember]
-        public ICollection<SiteEntity> SitesCollection { get; set; }
-        
-
-       
+        public ICollection<SharePointEntity> EDF { get; set; }
     }
 }

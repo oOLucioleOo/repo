@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="ServicesContracts\IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceImplementation\Service.cs" />
+    <Compile Include="ServicesImplementation\Service.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

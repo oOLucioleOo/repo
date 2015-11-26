@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Entities
 {
     [DataContract]
-    public class SiteEntity
+    public partial class SiteEntity
     {
         [DataMember]
         public string NomAdmin { get; set; }

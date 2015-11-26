@@ -40,12 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\WebApplicationBLL.cs" />
+    <Compile Include="BLLInterfaces\IXmlManagerBLL.cs" />
+    <Compile Include="BLL\XmlManagerBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLLInterfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{4a4b8696-58d8-4914-a2d8-2e72ed1185d4}</Project>
